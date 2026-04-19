@@ -544,7 +544,7 @@
                         substitute:                     0; // 1x1
                         name:                           string(STR_THATCHED_ROOF_HOUSE_NAME);
                         availability_mask:              [ALL_TOWNZONES & ~bitmask(TOWNZONE_CENTRE, TOWNZONE_INNER_SUBURB), ALL_CLIMATES | bitmask(ABOVE_SNOWLINE)];
-                        probability:                    2;
+                        probability:                    7;
                         years_available:                [0, 1950];
                         minimum_lifetime:               4*(para_lifetime);
 
@@ -1016,7 +1016,7 @@
                         substitute:                     0; // 1x1
                         name:                           string(STR_TILED_ROOF_HOUSE_NAME);
                         availability_mask:              [ALL_TOWNZONES & ~bitmask(TOWNZONE_EDGE, TOWNZONE_OUTSKIRT), ALL_CLIMATES | bitmask(ABOVE_SNOWLINE)];
-                        probability:                    2;
+                        probability:                    7;
                         years_available:                [0, 1950];
                         minimum_lifetime:               4*(para_lifetime);
 
@@ -1155,7 +1155,7 @@
                         substitute:                     0; // 1x1
                         name:                           string(STR_MID_OFFICE_NAME);
                         availability_mask:              [bitmask(TOWNZONE_CENTRE, TOWNZONE_INNER_SUBURB), ALL_CLIMATES | bitmask(ABOVE_SNOWLINE)];
-                        probability:                    0.5;
+                        probability:                    7;
                         years_available:                [1970, 2020];
                         minimum_lifetime:               4*(para_lifetime);
 
@@ -1499,7 +1499,7 @@
                         substitute:                     0; // 1x1
                         name:                           string(STR_VILLA_NAME);
                         availability_mask:              [bitmask(TOWNZONE_INNER_SUBURB, TOWNZONE_OUTER_SUBURB), ALL_CLIMATES | bitmask(ABOVE_SNOWLINE)];
-                        probability:                    2;
+                        probability:                    7;
                         years_available:                [1980, 2030];
                         minimum_lifetime:               4*(para_lifetime);
 
@@ -1703,7 +1703,7 @@
                         substitute:                     0; // 1x1
                         name:                           string(STR_SMALL_OFFICE_NAME);
                         availability_mask:              [bitmask(TOWNZONE_OUTER_SUBURB, TOWNZONE_INNER_SUBURB), ALL_CLIMATES | bitmask(ABOVE_SNOWLINE)];
-                        probability:                    1;
+                        probability:                    7;
                         years_available:                [1980, 2030];
                         minimum_lifetime:               4*(para_lifetime);
 
@@ -1897,7 +1897,7 @@
                         substitute:                     0; // 1x1
                         name:                           string(STR_LARGE_OFFICE_NAME);
                         availability_mask:              [bitmask(TOWNZONE_CENTRE), NO_CLIMATE | bitmask(ABOVE_SNOWLINE)];
-                        probability:                    0.25;
+                        probability:                    7;
                         years_available:                [1980, 2030];
                         minimum_lifetime:               6*(para_lifetime);
 
@@ -2009,7 +2009,7 @@
                         substitute:                     0; // 1x1
                         name:                           string(STR_SINGLE_HOUSE_NAME);
                         availability_mask:              [bitmask(TOWNZONE_OUTER_SUBURB, TOWNZONE_INNER_SUBURB), ALL_CLIMATES | bitmask(ABOVE_SNOWLINE)];
-                        probability:                    0.5;
+                        probability:                    7;
                         years_available:                [1990, 65535];
                         minimum_lifetime:               4*(para_lifetime);
 
@@ -2462,7 +2462,7 @@
                         substitute:                     0; // 1x1
                         name:                           string(STR_SMALL_SHOPPING_DIST_NAME);
                         availability_mask:              [ALL_TOWNZONES & ~bitmask(TOWNZONE_EDGE, TOWNZONE_OUTSKIRT), ALL_CLIMATES | bitmask(ABOVE_SNOWLINE)];
-                        probability:                    2;
+                        probability:                    7;
                         years_available:                [1990, 65535];
                         minimum_lifetime:               4*(para_lifetime);
 
@@ -2860,7 +2860,7 @@
                         substitute:                     0; // 1x1
                         name:                           string(STR_MID_SHOPPING_DIST_NAME);
                         availability_mask:              [bitmask(TOWNZONE_INNER_SUBURB, TOWNZONE_OUTER_SUBURB), ALL_CLIMATES | bitmask(ABOVE_SNOWLINE)];
-                        probability:                    2;
+                        probability:                    7;
                         years_available:                [1990, 65535];
                         minimum_lifetime:               4*(para_lifetime);
 
@@ -3006,7 +3006,7 @@
                         substitute:                     0; // 1x1
                         name:                           string(STR_MID_OFFICE_NAME);
                         availability_mask:              [bitmask(TOWNZONE_CENTRE, TOWNZONE_INNER_SUBURB), ALL_CLIMATES | bitmask(ABOVE_SNOWLINE)];
-                        probability:                    0.5;
+                        probability:                    7;
                         years_available:                [1990, 65535];
                         minimum_lifetime:               4*(para_lifetime);
 
@@ -3200,7 +3200,7 @@
                         substitute:                     0; // 1x1
                         name:                           string(STR_LARGE_OFFICE_NAME);
                         availability_mask:              [bitmask(TOWNZONE_CENTRE), ALL_CLIMATES | bitmask(ABOVE_SNOWLINE)];
-                        probability:                    0.25;
+                        probability:                    7;
                         years_available:                [1990, 65535];
                         minimum_lifetime:               6*(para_lifetime);
 
@@ -3756,7 +3756,7 @@
                         substitute:                     0; // 1x1
                         name:                           string(STR_VILLA_NAME);
                         availability_mask:              [bitmask(TOWNZONE_INNER_SUBURB, TOWNZONE_OUTER_SUBURB), ALL_CLIMATES | bitmask(ABOVE_SNOWLINE)];
-                        probability:                    4;
+                        probability:                    7;
                         years_available:                [2000, 65535];
                         minimum_lifetime:               4*(para_lifetime);
 
@@ -4157,7 +4157,7 @@
                         substitute:                     0; // 1x1
                         name:                           string(STR_SMALL_SHOPPING_DIST_NAME);
                         availability_mask:              [ALL_TOWNZONES & ~bitmask(TOWNZONE_EDGE, TOWNZONE_OUTSKIRT), ALL_CLIMATES | bitmask(ABOVE_SNOWLINE)];
-                        probability:                    2;
+                        probability:                    7;
                         years_available:                [2000, 65535];
                         minimum_lifetime:               4*(para_lifetime);
 
@@ -4613,7 +4613,7 @@
                         substitute:                     0; // 1x1
                         name:                           string(STR_MID_SHOPPING_DIST_NAME);
                         availability_mask:              [bitmask(TOWNZONE_INNER_SUBURB, TOWNZONE_OUTER_SUBURB), ALL_CLIMATES | bitmask(ABOVE_SNOWLINE)];
-                        probability:                    2;
+                        probability:                    7;
                         years_available:                [2000, 65535];
                         minimum_lifetime:               4*(para_lifetime);
 
@@ -4977,7 +4977,7 @@
                         substitute:                     0; // 1x1
                         name:                           string(STR_SMALL_OFFICE_NAME);
                         availability_mask:              [bitmask(TOWNZONE_INNER_SUBURB, TOWNZONE_OUTER_SUBURB), ALL_CLIMATES | bitmask(ABOVE_SNOWLINE)];
-                        probability:                    1.5;
+                        probability:                    7;
                         years_available:                [2000, 65535];
                         minimum_lifetime:               4*(para_lifetime);
 
@@ -5393,7 +5393,7 @@
                         substitute:                     0; // 1x1
                         name:                           string(STR_MID_OFFICE_NAME);
                         availability_mask:              [bitmask(TOWNZONE_CENTRE, TOWNZONE_INNER_SUBURB), ALL_CLIMATES | bitmask(ABOVE_SNOWLINE)];
-                        probability:                    1.5;
+                        probability:                    7;
                         years_available:                [2000, 65535];
                         minimum_lifetime:               4*(para_lifetime);
 
@@ -6298,7 +6298,7 @@
                         substitute:                     0; // 1x1
                         name:                           string(STR_LARGE_OFFICE_NAME);
                         availability_mask:              [bitmask(TOWNZONE_CENTRE), ALL_CLIMATES | bitmask(ABOVE_SNOWLINE)];
-                        probability:                    1;
+                        probability:                    7;
                         years_available:                [2010, 65535];
                         minimum_lifetime:               6*(para_lifetime);
 
@@ -8594,7 +8594,7 @@
                         name:                           string(STR_TALL_APT_NAME);
                         availability_mask:              [bitmask(TOWNZONE_CENTRE, TOWNZONE_INNER_SUBURB), ALL_CLIMATES | bitmask(ABOVE_SNOWLINE)];
                         random_colours:                 [COLOUR_PALE_GREEN, COLOUR_DARK_GREEN, COLOUR_CREAM, COLOUR_BROWN];
-                        probability:                    15;
+                        probability:                    7;
                         years_available:                [2000, 65535];
                         minimum_lifetime:               10*(para_lifetime);
 
@@ -9013,7 +9013,7 @@
                         name:                           string(STR_TALL_APT_NAME);
                         availability_mask:              [bitmask(TOWNZONE_CENTRE, TOWNZONE_INNER_SUBURB), ALL_CLIMATES | bitmask(ABOVE_SNOWLINE)];
                         random_colours:                 [COLOUR_PALE_GREEN, COLOUR_DARK_GREEN, COLOUR_CREAM, COLOUR_BROWN];
-                        probability:                    15;
+                        probability:                    7;
                         years_available:                [2015, 65535];
                         minimum_lifetime:               10*(para_lifetime);
 
